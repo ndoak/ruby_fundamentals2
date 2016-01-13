@@ -17,3 +17,6 @@ puts students
 
 
 puts students.keys
+
+increase = students.each { | key , value| students[key]=(value * 0.05) + value }
+info(increase)
