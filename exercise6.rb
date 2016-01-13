@@ -13,12 +13,23 @@ grocery_list << ("rice")
 # end
 
 #create a method that will output the list with less code
-def grocery(item)
-  item. each do |x|
-    puts "*" + x
-  end
-end
-grocery(grocery_list)
+# def grocery(item)
+#   item. each do |x|
+#     puts "*" + x
+#   end
+# end
+# grocery(grocery_list)
 
 #Print total number of items on your list
 puts grocery_list.length
+
+def bananas(list)
+  if list.include? ("bananas") == true
+    puts "You need to pick up bananas"
+  else puts "You do not need to pick up bananas "
+  end
+end
+bananas(grocery_list)
+
+#second item in the list
+puts grocery_list[1]
