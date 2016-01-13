@@ -13,4 +13,7 @@ info (students)
 
 #add new key,value pair to hash
 students [:cohort4] = 43
-puts students 
+puts students
+
+
+puts students.keys
